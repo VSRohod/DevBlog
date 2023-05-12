@@ -156,6 +156,13 @@ footer aside{
     padding: 20px;
 }
 
+footer ul li{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 10px 0px;
+}
+
 /* CSS ANIMATIONS */
 a:hover, .links li:first-child a:hover{
   color: #00bbf9;  
