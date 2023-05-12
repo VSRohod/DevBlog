@@ -1,0 +1,87 @@
+#colors{
+    background-color:#ff99c8;
+    background-color:#fcf6bd;
+    background-color:#d0f4de;
+    background-color:#a9def9;
+    background-color:#e4c1f9;
+    background-color:#fef9ef;
+    background-color:#17c3b2;
+    background-color:#9b5de5;
+    background-color:#f15bb5;
+    background-color:#fee440;
+    background-color:#00bbf9;
+    background-color:#00f5d4;
+    background-color:#5a6270;
+}
+
+#intro{
+    height: 300px;
+    background-color:#f15bb5;
+}
+
+#banner{
+    background-image: url("../../images/vector/bannerMulher.svg");
+}
+
+/* ULTIMAS ATUALIZAÇÕES */
+
+#atualizacoes{
+    text-align: center;
+    display: block;
+    border: #00f5d4 2px solid;
+}
+
+.catalogo{
+    gap: 40px;
+}
+
+.post{
+    max-width: 600px;
+    min-width: 200px;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    background-color: #fffafa;
+    box-shadow: #5a6270 3px 3px 3px 3px;
+}
+
+#atualizacoes .image{
+    width: 80%;
+    height: 100px;
+    margin: 0px auto;
+}
+
+/* POSTS IMAGES */
+
+#post1{
+    background-image: url("../../images/vector/bannerHomem.svg");
+}
+
+#post2{
+    background-image: url("../../images/vector/bannerHomem.svg");
+}
+
+#post3{
+    background-image: url("../../images/vector/bannerHomem.svg");
+}
+
+#post4{
+    background-image: url("../../images/vector/bannerHomem.svg");
+}
+
+#post5{
+    background-image: url("../../images/vector/bannerHomem.svg");
+}
+
+#post6{
+    background-image: url("../../images/vector/bannerHomem.svg");
+}
+
+#post7{
+    background-image: url("../../images/vector/bannerHomem.svg");
+}
+
+#post8{
+    background-image: url("../../images/vector/bannerHomem.svg");
+}
+
