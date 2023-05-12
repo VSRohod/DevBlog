@@ -29,6 +29,7 @@
     background-color:#fee440;
     background-color:#00bbf9;
     background-color:#00f5d4;
+    background-color:#5a6270;
 }
 
 h1{
@@ -38,6 +39,12 @@ h1{
 
 h2{
     margin: 20px 0px;
+}
+
+hr{
+    width: 40%;
+    margin: 0px auto;
+    border: #f15bb5 2px solid;
 }
 
 ul{
@@ -109,6 +116,7 @@ section{
     height: auto;
     border-radius: 10px;
     padding: 20px;
+    margin: 40px 0px;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -141,6 +149,36 @@ aside{
     margin: 20px auto;
     background-image: url("../../images/autorIcon.png");
     border: #fee440 solid 5px;
+}
+
+/* POSTS */
+#blogPosts{
+    display: block;
+}
+.post{
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.post p{
+    color: #5a6270;
+}
+
+#post1{
+    background-image: url("../../images/posts/celular.jpg");
+}
+
+#post2{
+    background-image: url("../../images/posts/kitteclado.jpg");
+}
+
+#post3{
+    background-image: url("../../images/posts/olhandopc.jpg");
 }
 
 /* FOOTER */
