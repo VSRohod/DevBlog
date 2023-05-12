@@ -181,6 +181,43 @@ aside{
     background-image: url("../../images/posts/olhandopc.jpg");
 }
 
+#categorias{
+    display: block;
+}
+
+#categoriasTopicos{
+    display: flex;
+    gap: 20px;
+}
+
+.postCategoria{
+    width: 30%;
+    height: 500px;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+.backCategoria{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: #fef9ef;
+}
+
+#categoriaMobile{
+    background-image: url("../../images/posts/celular.jpg");
+}
+
+#categoriaDesktop{
+    background-image: url("../../images/posts/kitteclado.jpg");
+}
+
+#categoriaFlowWork{
+    background-image: url("../../images/posts/olhandopc.jpg");
+}
 /* FOOTER */
 
 footer{
