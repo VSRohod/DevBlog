@@ -1,0 +1,167 @@
+/* FONTS */
+@font-face {
+    font-family: Roboto;
+    src: url("../../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url("../../fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+/* ALL CONTENTS */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+#colors{
+    background-color:#ff99c8;
+    background-color:#fcf6bd;
+    background-color:#d0f4de;
+    background-color:#a9def9;
+    background-color:#e4c1f9;
+    background-color:#fef9ef;
+    background-color:#17c3b2;
+    background-color:#9b5de5;
+    background-color:#f15bb5;
+    background-color:#fee440;
+    background-color:#00bbf9;
+    background-color:#00f5d4;
+    background-color:#5a6270;
+}
+
+h1{
+    font-family: BebasNeue;
+    font-size: 30pt;
+}
+
+h2{
+    margin: 20px 0px;
+}
+
+hr{
+    width: 40%;
+    margin: 0px auto;
+    border: #f15bb5 2px solid;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #9b5de5;
+    font-weight: bold;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border: #9b5de5 solid 2px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #9b5de5;
+    cursor: pointer;
+}
+
+.buttons li:last-child button{
+    background-color: #f15bb5;
+    border: none;
+    color: white;
+}
+
+.links li:first-child a{
+    color: #f15bb5;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fef9ef;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul{
+    width: auto;
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+/* MAIN */
+main{
+    min-width: 320px;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+}
+
+aside{
+    width: 50%;
+}
+
+.image{
+    background-size: cover;
+    background-position: center;
+    background-position: none;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #fef9ef;
+    border-top: #9b5de5 solid 2px;
+    padding: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+footer aside{
+    margin: 20px;
+    padding: 20px;
+}
+
+/* CSS ANIMATIONS */
+a:hover, .links li:first-child a:hover{
+  color: #00bbf9;  
+}
+
+button:hover,.buttons li:last-child button:hover{
+    background-color: #00bbf9;
+    color: white;
+    border: #00bbf9 2px solid;
+}
