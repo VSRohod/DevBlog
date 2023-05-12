@@ -163,6 +163,10 @@ footer ul li{
     margin: 10px 0px;
 }
 
+footer ul li img{
+    margin: 0px 10px;
+}
+
 /* CSS ANIMATIONS */
 a:hover, .links li:first-child a:hover{
   color: #00bbf9;  
