@@ -193,8 +193,9 @@ aside{
 .postCategoria{
     width: 30%;
     height: 500px;
-    margin: 20px 0px;
+    margin: 20px 0px 5px 0px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .backCategoria{
@@ -217,6 +218,15 @@ aside{
 
 #categoriaFlowWork{
     background-image: url("../../images/posts/olhandopc.jpg");
+}
+
+.categoriaDescricaoDrop{
+    width: 80%;
+    height: auto;
+    border: #00bbf9 2px solid;
+    display: none;
+    padding: 20px;
+    margin: 0 auto;
 }
 /* FOOTER */
 
