@@ -41,6 +41,10 @@ h2{
     margin: 20px 0px;
 }
 
+h3{
+    font-family: BebasNeue;
+}
+
 hr{
     width: 40%;
     margin: 0px auto;
@@ -101,6 +105,7 @@ header ul{
     height: 80%;
     padding: 10px;
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 

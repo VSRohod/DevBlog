@@ -1,0 +1,104 @@
+#colors{
+    background-color:#ff99c8;
+    background-color:#fcf6bd;
+    background-color:#d0f4de;
+    background-color:#a9def9;
+    background-color:#e4c1f9;
+    background-color:#fef9ef;
+    background-color:#17c3b2;
+    background-color:#9b5de5;
+    background-color:#f15bb5;
+    background-color:#fee440;
+    background-color:#00bbf9;
+    background-color:#00f5d4;
+    background-color:#5a6270;
+}
+
+h1{
+    margin: 20px;
+}
+
+h3{
+    letter-spacing: 5px;
+}
+
+p{
+    text-align: left;
+}
+
+/* CONTEUDO */
+#intro{
+    justify-content: center;
+    flex-flow: column;
+    background-color:#9b5de5;
+    color: white;
+}
+
+#conteudo aside{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+#principal{
+    width: 70%;
+}
+
+#outros{
+    width: 30%;
+}
+
+#banner{
+    width: 80%;
+    height: 250px;
+    margin: 20px auto;
+    border: #5a6270 solid 2px;
+    background-image: url("../../images/banner.jpg");
+}
+
+/* AUTOR */
+#autor{
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#autorIcon{
+    width: 100px;
+    height: 100px;
+    background-image: url("../../images/autorIcon.png");
+    border-radius: 100px;
+}
+
+#autorInfo p{
+    margin: 10px 0px;
+}
+
+/* outros */
+#postsOutros{
+    width: 100%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.post{
+    width: 100%;
+    display: flex;
+    font-size: x-small;
+    text-align: left;
+    margin: 20px auto;
+}
+
+#post1{
+    background-image: url("../../images/posts/celular.jpg");
+}
+
+#post2{
+    background-image: url("../../images/posts/kitteclado.jpg");
+}
+
+#post3{
+    background-image: url("../../images/posts/olhandopc.jpg");
+}
