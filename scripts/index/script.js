@@ -1,37 +1,32 @@
-var categoriaMobile = document.getElementById("categoriaMobile")
-var categoriaDesktop = document.getElementById("categoriaDesktop")
-var categoriaFlowWork = document.getElementById("categoriaFlowWork")
-var mobileDescricao = document.getElementById("mobileDescricao")
-var desktopDescricao = document.getElementById("desktopDescricao")
-var flowWorkDescricao = document.getElementById("flowWorkDescricao")
+const categoriaMobile = $("#categoriaMobile")
+const categoriaDesktop = $("#categoriaDesktop")
+const categoriaFlowWork = $("#categoriaFlowWork")
+const mobileDescricao = $("#mobileDescricao")
+const desktopDescricao = $("#desktopDescricao")
+const flowWorkDescricao = $("#flowWorkDescricao")
+const categoriaDescricaoDrop = $(".categoriaDescricaoDrop")
 
-categoriaMobile.addEventListener("click",mostrarMobile)
-categoriaDesktop.addEventListener("click",mostrarDesktop)
-categoriaFlowWork.addEventListener("click",mostrarFlowWork)
-mobileDescricao.addEventListener("click",fechar)
-desktopDescricao.addEventListener("click",fechar)
-flowWorkDescricao.addEventListener("click",fechar)
+categoriaMobile.on("click", function(){
+    flowWorkDescricao.slideUp(1)
+    desktopDescricao.slideUp(1)
+    mobileDescricao.slideToggle(500)
+})
 
-function mostrarMobile(){
-    mobileDescricao.style.display = "block"
-    desktopDescricao.style.display = "none"
-    flowWorkDescricao.style.display = "none"
-}
+categoriaDesktop.on("click",function(){
+    flowWorkDescricao.slideUp(1)
+    mobileDescricao.slideUp(1)
+    desktopDescricao.slideToggle(500)
+})
 
-function mostrarDesktop(){
-    mobileDescricao.style.display = "none"
-    desktopDescricao.style.display = "block"
-    flowWorkDescricao.style.display = "none"
-}
+categoriaFlowWork.on("click",function(){
+    desktopDescricao.slideUp(1)
+    mobileDescricao.slideUp(1)
+    flowWorkDescricao.slideToggle(500)
+})
 
-function mostrarFlowWork(){
-    mobileDescricao.style.display = "none"
-    desktopDescricao.style.display = "none"
-    flowWorkDescricao.style.display = "block"
-}
+categoriaDescricaoDrop.on("click", function(){
+    desktopDescricao.slideUp(500)
+    mobileDescricao.slideUp(500)
+    flowWorkDescricao.slideUp(500)
 
-function fechar(){
-    mobileDescricao.style.display = "none"
-    desktopDescricao.style.display = "none"
-    flowWorkDescricao.style.display = "none"
-}
+})

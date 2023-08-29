@@ -27,17 +27,23 @@
 
 #atualizacoes{
     text-align: center;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: #00f5d4 2px solid;
+    flex-wrap: wrap;
 }
 
 .catalogo{
-    gap: 40px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .post{
-    max-width: 600px;
-    min-width: 200px;
+    width: 400px;
     text-align: center;
     height: auto;
     padding: 20px;
@@ -45,43 +51,47 @@
     box-shadow: #5a6270 3px 3px 3px 3px;
 }
 
+.post p{
+    margin: 20px 0px;
+}
+
 #atualizacoes .image{
     width: 80%;
-    height: 100px;
+    height: 200px;
     margin: 0px auto;
 }
 
 /* POSTS IMAGES */
 
 #post1{
-    background-image: url("../../images/vector/bannerHomem.svg");
+    background-image: url("../../images/posts/memes.jpg");
 }
 
 #post2{
-    background-image: url("../../images/vector/bannerHomem.svg");
+    background-image: url("../../images/posts/celular.jpg");
 }
 
 #post3{
-    background-image: url("../../images/vector/bannerHomem.svg");
+    background-image: url("../../images/posts/kitteclado.jpg");
 }
 
 #post4{
-    background-image: url("../../images/vector/bannerHomem.svg");
+    background-image: url("../../images/posts/olhandopc.jpg");
 }
 
 #post5{
-    background-image: url("../../images/vector/bannerHomem.svg");
+    background-image: url("../../images/posts/trabalhoEmEquipe.jpg");
 }
 
 #post6{
-    background-image: url("../../images/vector/bannerHomem.svg");
+    background-image: url("../../images/posts/spencer.jpg");
 }
 
 #post7{
-    background-image: url("../../images/vector/bannerHomem.svg");
+    background-image: url("../../images/posts/jogos.jpg");
 }
 
 #post8{
-    background-image: url("../../images/vector/bannerHomem.svg");
+    background-image: url("../../images/posts/rotina.jpg");
 }
 
