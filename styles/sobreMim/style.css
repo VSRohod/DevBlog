@@ -1,0 +1,33 @@
+#aboutMe{
+    height: 500px;
+    background-color: #00bbf9;
+    overflow: hidden;
+}
+
+#aboutMeBackColor{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#aboutMeIcon{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/autorIcon.png);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#fursonaIcon{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#fursonaIcon img{
+    width: 100%;
+    height: 100%;
+}
