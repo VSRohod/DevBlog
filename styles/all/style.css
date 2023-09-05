@@ -182,3 +182,8 @@ button:hover,.buttons li:last-child button:hover{
     color: white;
     border: #00bbf9 2px solid;
 }
+
+/* mobile */
+#mobile,.iconsMobile{
+    display: none;
+}

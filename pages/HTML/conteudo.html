@@ -8,12 +8,13 @@
     <link rel="shortcut icon" href="../../images/vector/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="../../styles/all/style.css" type="text/css">
     <link rel="stylesheet" href="../../styles/conteudo/style.css" type="text/css">
+    <link rel="stylesheet" href="../../styles/all/@mediaAll.css" type="text/css" media="screen and (max-width : 700px)">
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="pc">
             <ul class="links">
-                <li><a href="index.html"><img src="../../images/vector/logo.svg" height="80px" alt=""></a></li>
+                <li><a href="../../index.html"><img src="../../images/vector/logo.svg" height="80px" alt=""></a></li>
                 <li><a href="../../index.html">Home</a></li>
                 <li><a href="novidades.html">Novidades</a></li>
                 <li><a href="conteudo.html">Conteúdo</a></li>
@@ -25,7 +26,30 @@
                 <li><a href="#"><button id="login">LOGIN</button></a></li>
             </ul>
         </nav>
+
+        <!-- mobile icons -->
+        <ul class="links iconsMobile">
+            <li><a href="../../index.html"><img src="../../images/vector/logo.svg" height="80px" width="80px" alt=""></a></li>
+        </ul>
+        <ul class="buttons iconsMobile">
+            <li id="hamburguerMenu"><img src="../../images/icons/hamburguerMenuIcon.svg"><a href="#"></a></li>
+        </ul>
     </header>
+
+    <!-- mobile version -->
+    <nav id="mobile">
+        <ul class="links">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../pages/HTML/novidades.html">Novidades</a></li>
+            <li><a href="../../pages/HTML/conteudo.html">Conteúdo</a></li>
+            <li><a href="../../pages/HTML/sobreMim.html">Sobre mim</a></li>
+        </ul>
+
+        <ul class="buttons">
+            <li><a href="#"><button id="cadastro">CADASTRO</button></a></li>
+            <li><a href="#"><button id="login">LOGIN</button></a></li>
+        </ul>
+    </nav>
 
     <main>
         <section id="intro">

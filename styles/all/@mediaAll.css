@@ -1,0 +1,58 @@
+#pc{
+    display: none;
+}
+
+#mobile{
+    width: 100%;
+    background-color:#5a6270;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.iconsMobile{
+    display: flex;
+}
+
+
+#mobile button,#mobile .buttons a{
+    width: 90%;
+}
+
+#mobile .buttons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mobile .links, #mobile .buttons{
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mobile .links li,#mobile .buttons li{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
+}
+
+#mobile .links a{
+    color: white;
+}
+
+
+/* CLICK */
+#mobile .links li:hover{
+    background-color:#9b5de5;
+    border-radius: 20px;
+    transition: 0.8s;
+}
